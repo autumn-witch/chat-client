@@ -1,0 +1,27 @@
+body {
+	background-color: #1c1632;
+	opacity: 0.8;
+}
+
+.chat {
+	background-color: #25223d;
+}
+
+.chat-header {
+	height: 10%;
+	color: #dd6a4b;
+}
+.chat-content {
+	padding: 3%;
+	overflow-y: scroll;
+}
+
+input {
+	background-color: #3b2939;
+	color: #dd6a4b;
+	caret-color: black;
+	padding-left: 3%;
+}
+input::placeholder {
+	color: #dd6a4b;
+}
